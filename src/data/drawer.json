@@ -1,0 +1,15 @@
+{
+  "items": 
+  [
+    { "text": "", "icon": "StyledFlight" },
+    { "text": "Dashboard", "icon": "Dashboard" },
+    { "text": "Tickets", "icon": "Tickets" },
+    { "text": "Manual Tickets", "icon": "ManualTickets" },
+    { "text": "Hotels", "icon": "Hotels" },
+    { "text": "Visa", "icon": "Visa" },
+    { "text": "Insurance", "icon": "Insurance" },
+    { "text": "Transportation", "icon": "Transportation" },
+    { "text": "Admin", "icon": "Admin" },
+    { "text": "Settings", "icon": "Settings" }
+  ]
+}

@@ -1,0 +1,67 @@
+import React, { FunctionComponent } from "react";
+import { IconProps } from "./types";
+const Unit: FunctionComponent<IconProps> = ({ color, className, ...props }) => (
+  <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns-xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 417.218 417.218" fill="white" width="20" height="20" xml-space="preserve">
+<path d="M407.718,342.554h-12.476V197.735c0-102.908-83.722-186.63-186.63-186.63s-186.63,83.722-186.63,186.63v144.818H9.5
+	c-5.247,0-9.5,4.253-9.5,9.5v44.56c0,5.247,4.253,9.5,9.5,9.5h398.218c5.247,0,9.5-4.253,9.5-9.5v-44.56
+	C417.218,346.807,412.965,342.554,407.718,342.554z M40.983,197.735c0-92.432,75.198-167.63,167.63-167.63
+	s167.63,75.199,167.63,167.63v144.818h-20.004V197.733c0-81.403-66.226-147.629-147.629-147.629h0
+	c-81.403,0-147.629,66.226-147.629,147.629v144.821H40.983V197.735z M252.364,361.554v25.56h-87.509v-25.56H252.364z
+	 M232.205,342.554h-47.183v-0.735c0-13.008,10.583-23.591,23.591-23.591c13.009,0,23.592,10.583,23.592,23.591V342.554z
+	 M251.205,342.554v-0.735c0-23.485-19.106-42.591-42.592-42.591c-23.485,0-42.591,19.106-42.591,42.591v0.735h-22.721v-19.616
+	c0-36.014,29.299-65.313,65.312-65.313s65.313,29.299,65.313,65.313v19.616H251.205z M208.613,151.544
+	c23.843,0,43.241,19.398,43.241,43.241s-19.398,43.241-43.241,43.241s-43.24-19.398-43.24-43.241S184.771,151.544,208.613,151.544z
+	 M243.577,246.247c16.451-11.213,27.277-30.095,27.277-51.462c0-34.32-27.921-62.241-62.241-62.241
+	c-34.319,0-62.24,27.921-62.24,62.241c0,21.367,10.825,40.25,27.276,51.462c-29.083,13.313-49.348,42.67-49.348,76.69v19.616H79.979
+	V197.733c0-70.926,57.703-128.629,128.63-128.629c70.926,0,128.629,57.703,128.629,128.629v144.821h-44.313v-19.616
+	C292.926,288.917,272.66,259.56,243.577,246.247z M19,361.554h51.479h75.375v25.56H19V361.554z M398.218,387.113H271.364v-25.56
+	h75.375h51.479V387.113z"/>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+
+  // <svg
+  //   xmlns="http://www.w3.org/2000/svg"
+  //   xmlnsXlink="http://www.w3.org/1999/xlink"
+  //   width="30"
+  //   height="30"
+  //   viewBox="0 0 30 30"
+  // >
+  //   <image
+  //     id="icons8-unit-100"
+  //     width="30"
+  //     height="30"
+  //     xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABmJLR0QA/wD/AP+gvaeTAAACdklEQVR4nO3cQU4bMRTG8eeom3CF0jMk9+gaUSVIdBX1SLBvIvUEvQaoRwCpEnvChuKuQMowyLE9dj5n/r9lZCy/+TTjvJDYDAAAAADqcqEBJ/NvX827azP3ucaCetzbi1tt/6x/50zSSh2T4DR+cnXAIszMTm3ir7NnaaSOcCBmpwMsJteXAeZooo59AkFFn2L/YHu7Ce47QziZLXzJ+VXr4A4RQyBiCEQMgYghEDEEIoZAxBCIGAIRE92pH0rpzl0Fd4gYAhFDIGKa2UNyP51tZQ/iDhFDIGIIRAyBiCEQMQQihkDEEIgYAhFDIGIIREz0Z1mtfCYUoloHd4iYfQK5L76KsLsB5miijnAgL25lhy3mznm/yp6lkTqKfQO8+4yu9W3zUmrVwx4ihkDEEIgYAhFDIGIIRAyBiCEQMQQihkDEEIgYAhFDIGIIRAyBiOFEuXo4UW5HI3VwolxdnCjXmuQT5abzxZnztunM8c85u3y82axfX8gcV8xRnSjXehjKogOZzpbnPRfv2Ztb7lzkzHGx6zoW0YE48z/t/UW+eLpd/3p9YTpbnueOi13XsUh5ZHUfP993LvJ8cdZzkZPHjU3Ou6yh94x348YoNRDCKCTlXc2zN3exvensBb5/L0gdZyb5a4Hiou+QEhv4B+NGKTqQkhv4B+NGJXlTpzksg05dTPQFKLGB943rrk31N4FDo1MXQ6cuhk5dTOomWj2MsZy5SKcuhk5dDJ26GDp1MXTqYvifuhg6dTF06mJyntnF+5ExCn/7XaTDPZZOPVTHPo8siULGYp9AHoqvIowT5d44/8PM/g6xmkSjOlEOAAAAAGr7D5qpeDDIz8z1AAAAAElFTkSuQmCC"
+  //   />
+  // </svg>
+);
+export default Unit;

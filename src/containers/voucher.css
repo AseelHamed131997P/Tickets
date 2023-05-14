@@ -1,0 +1,18 @@
+@media print {
+  .big-table {
+    width: 680px !important;
+   
+  }
+  .hidden-print {
+    visibility: hidden;
+ }
+}
+
+
+@media print {
+  @page {
+     margin: 0;
+    
+
+  }
+}

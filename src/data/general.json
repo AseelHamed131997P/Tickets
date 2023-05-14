@@ -1,0 +1,124 @@
+{
+  "Title": "Title goes here",
+  "Button": "Button goes here",
+  "Alert": "No Tickets Found , please change date and try again.",
+  "CodeAccount": "Code Account",
+  "AppId": "App Id",
+  "AppSecret": "App Secret",
+  "UserName": "User Name",
+  "Password": "Password",
+  "Save": "Save",
+  "Bisan": "Bisan Account",
+  "alertMessage": "Saved Succedssfully !!",
+  "alertSendMessage": "Submit Succedssfully !!",
+  "alertErrorMessage": "Send to bisan failed!!",
+  "alertMessageForResetPass": "Password has been changed Succedssfully !!",
+  "alertError": "Failed to save !!",
+  "apiErrors": {
+    "general": "something went wrong please try again"
+  },
+
+  "validators": {
+    "required": "Field is required",
+    "email": "Email value is not valid",
+    "length": "length is not valid",
+    "emailExist": "Email already exist",
+    "notEmpty": "Field should not be empty",
+    "passLength": "Password should be of minimum 6 characters length",
+    "number": "Number only",
+    "phoneNumber": "The phone number is not valid and must start with 02",
+    "mobileNumber": "The mobile number is not valid"
+  },
+  "manualFields": {
+    "ManualTicket": "Manual Ticket",
+    "supplier": "Supplier",
+    "selectSupplier": "Select Supplier",
+    "customer": "Customer",
+    "selectCustomer": "Select Customer",
+    "quantity": "Quantity",
+    "sale": "Sale Price",
+    "purchase": "Purchase Price",
+    "comment": "Comment",
+    "leave": "Leave your comment here",
+    "Currancy": "Currancy",
+    "USD": "USD",
+    "Tax": "Tax Type",
+    "E": "E",
+    "Date": "Date",
+    "Description": "Description",
+
+    "Returns": "Returns",
+    "Item": "Item",
+
+    "Unit": "Unit",
+
+    "000000001": "000000001",
+    "Warehouse": "Warehouse",
+    "0001": "0001",
+    "10/7/2021": "10/7/2021",
+    "save": "save",
+    "bisan": "Send",
+    "manualVisa": "Manual VISA",
+    "manualInsurance": "Manual Insurance",
+    "manualTransp": "Manual Transportation",
+    "checkIn": "Check In",
+    "selectCheckIn": "10/07/2021",
+    "checkOut": "Check Out",
+    "selectCheckOut": "10/07/2021",
+    "voucher": "Voucher",
+    "passengerName": "Passenger Name",
+    "BNR": "BNR",
+    "TicketDetails": {
+      "item": "000000001",
+      "unit": "TCKT",
+      "description": "Ticket"
+    },
+    "VisaDetails": {
+      "item": "000000002",
+      "unit": "VISA",
+      "description": "VISA"
+    },
+    "TransportationDetails": {
+      "item": "000000006",
+      "unit": "Transportation",
+      "description": "Transportation"
+    },
+    "InsuranceDetails": {
+      "item": "000000005",
+      "unit": "Insurance",
+      "description": "Insurance"
+    },
+    "HotelDetails": {
+      "item": "000000003",
+      "unit": "HTL",
+      "description": "Hotel"
+    }
+  },
+
+  "ProfileInfo": "Profile Info",
+  "ChangePassword": "Change Password",
+
+  "infoFields": {
+    "Name": "Name",
+    "Email": "Email",
+    "Gender": "Gender",
+    "Location": "Location",
+    "Website": "Website",
+    "NewPassword": "New Password",
+    "ConfirmPassword": "Confirm Password"
+  },
+  "footer": {
+    "Powered": "Powered By NGN",
+    "Email": "Support:Info@ngn.ps",
+    "Phone": "Telephone:02-2951182",
+    "Mobile": "mobile:+970592993700"
+  },
+  "voucher": {
+    "VoucherTitle": "Voucher Settings",
+    "Label": "Current Start Number",
+    "PlaceHolder": "Enter New Start Number",
+    "ErrorMessage": "Start Number is required",
+    "length": "Start Number must be 3 digits",
+    "valid": "Must be only digits"
+  }
+}
